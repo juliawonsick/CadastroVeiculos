@@ -30,7 +30,7 @@ class Veiculo:
     # Método de instância
     def calcularTempoUso(self):
         return 2024 - self.__ano
-    def _str_(self):
+    def __str__(self):
         return f'''Marca: {self.__marca}
  - Modelo: {self.__modelo}
  - Placa: {self.__placa}

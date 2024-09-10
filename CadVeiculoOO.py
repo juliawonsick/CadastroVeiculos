@@ -5,8 +5,9 @@ from Caminhao import Caminhao
 #BD em memória
 listaVeiculos = [
     Carro("Hyundai", "HB20", 'ABC', 2023, 4),
-    Moto("Yamaha", "Lander", "DEF", 2005, 250),
+    Moto("Yamaha", "Lander", "DEF", 2005, 250)
 ]
+
 def cadastrar():
     print("Qual o tipo de veículo: (1) Carro - (2) Moto - (3) Caminhão")
     tipo = input()
